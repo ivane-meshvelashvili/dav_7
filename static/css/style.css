@@ -1,0 +1,235 @@
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #000000;
+    align-items: center;
+height: 119px;
+}
+header input{width: 336px;
+    height: 41px;
+border-radius: 4px;
+border: 1px solid #4B4B4B;
+padding-left: 7px;
+}
+.header_links{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 430px;
+}
+.header_links a{
+    font-family: 'red rose';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.main_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    height: 120px;
+}
+
+.main_links li{    border: 0.5px solid #EAEAEA;
+    border-radius: 10px;
+padding: 6px 24px;}
+.main_links a{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+}
+.main{display: grid;
+grid-template-columns: repeat(4, 1fr);
+justify-items: center;
+align-items: center;
+row-gap: 80px;
+column-gap: 64px;
+height: 1000px;
+}
+.box{
+    width: 260px;
+height: 270px;
+}
+.boxheader{height: 20px;
+display: flex;
+justify-content: space-between;
+}
+.colors{    width: 260px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.hex{opacity: 0;
+}
+.hex:hover{visibility: hidden visible;
+opacity: 0.9;
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+background-color: #D9D9D9;
+}
+
+/* b1 */
+.b1_c1{ background-color: #CDF0EA;}
+.b1_c2{background-color: #F9F9F9;}
+.b1_c3{background-color: #F6C6EA;}
+.b1_c4{background-color: #FAF4B7;}
+/* b2 */
+.b2_c1{background-color: #D4ECDD;}
+.b2_c2{background-color: #345B63;}
+.b2_c3{background-color: #152D35;}
+.b2_c4{background-color: #112031;}
+/* b3 */
+.b3_c1{background-color: #F9F3DF;}
+.b3_c2{background-color: #CDF2CA;}
+.b3_c3{background-color: #FFDEFA;}
+.b3_c4{background-color: #FFC898;}
+/* b4 */
+.b4_c1{background-color: #3330E4;}
+.b4_c2{background-color: #F637EC;}
+.b4_c3{background-color: #FBB454;}
+.b4_c4{background-color: #FAEA48;}
+
+/* b5 */
+.b5_c1{background-color: #D9D7F1;}
+.b5_c2{background-color: #FFFDDE;}
+.b5_c3{background-color: #E7FBBE;}
+.b5_c4{background-color: #FFCBCB;}
+/* b6 */
+.b6_c1{background-color: #990000;}
+.b6_c2{background-color: #FF5B00;}
+.b6_c3{background-color: #D4D925;}
+.b6_c4{background-color: #FFEE63;}
+/* b7 */
+.b7_c1{background-color: #B91646;}
+.b7_c2{background-color: #DFD8CA;}
+.b7_c3{background-color: #FBF3E4;}
+.b7_c4{background-color: #105652;}
+/* b8 */
+.b8_c1{background-color: #CDF0EA;}
+.b8_c2{background-color: #F9F9F9;}
+.b8_c3{background-color: #F6C6EA;}
+.b8_c4{background-color: #FAF4B7;}
+/* b9 */
+.b9_c1{background-color: #FFCC1D;}
+.b9_c2{background-color: #0B4619;}
+.b9_c3{background-color: #116530;}
+.b9_c4{background-color: #E8E8CC;}
+/* b10 */
+.b10_c1{background-color: #00FFAB;}
+.b10_c2{background-color: #14C38E;}
+.b10_c3{background-color: #B8F1B0;}
+.b10_c4{background-color: #E3FCBF;}
+/* b11 */
+.b11_c1{background-color: #49FF00;}
+.b11_c2{background-color: #FBFF00;}
+.b11_c3{background-color: #FF9300;}
+.b11_c4{background-color: #FF0000;}
+/* b12 */
+.b12_c1{background-color: #06283D;}
+.b12_c2{background-color: #1363DF;}
+.b12_c3{background-color: #47B5FF;}
+.b12_c4{background-color: #DFF6FF;}
+
+.boxfooter{    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #EAEAEA;}
+.like_icon{grid-column: 1/3;}
+.Download_icon{    grid-column: 9/10;}
+.Link_icon{    grid-column: 11/12;}
+
+/* collection  page*/
+
+.col_1sec{background-image: url("/static/img/robert-katzki-jbtfM0XBeRc-unsplash\ 1.png");
+height: 300px; width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+margin-bottom: 100px;}
+.col_1sec h1{ font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;}
+
+/* collection boxes*/
+.Coll_boxes{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 90px;
+    row-gap: 70px;
+    justify-items: center;
+    width: 100%;}
+.coll_imgs{ width: 346px;
+height: 314px;
+border: 1px solid #EAEAEA;
+border-radius: 4px;
+display: grid;
+gap: 5px;}
+.coll_list{display: flex;
+    justify-content: space-between;}
+.coll_list h5{margin-top: 5px;
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 13px;
+color: #5A5A5A;
+text-align: center;}
+.circle{ width: 58px;
+    height: 58px;
+    border-radius: 50%;}
+
+ /* collection box footer*/
+.box1_c1{background-color: #D12529;}
+.box1_c2{background-color: #394430;}
+.box1_c3{background-color: #FC739F;}
+.box1_c4{background-color: #FA9F4A;}
+.box1_c5{background-color: #A13583;}
+
+.box2_c1{background-color: #FF8601;}
+.box2_c2{background-color: #F2EAE7;}
+.box2_c3{background-color: #430001;}
+.box2_c4{background-color: #15100F;}
+.box2_c5{background-color: #E59222;}
+
+.box3_c1{background-color: #7F73B5;}
+.box3_c2{background-color: #E2DFE6;}
+.box3_c3{background-color: #534090;}
+.box3_c4{background-color: #0E44A7;}
+.box3_c5{background-color: #050408;}
+
+.box4_c1{background-color: #F6F6F8;}
+.box4_c2{background-color: #FDCF05;}
+.box4_c3{background-color: #49403E;}
+.box4_c4{background-color: #E6D9C9;}
+.box4_c5{background-color: #F9E822;}
+
+.box5_c1{background-color: #007CC2;}
+.box5_c2{background-color: #01A0D9;}
+.box5_c3{background-color: #DE9E00;}
+.box5_c4{background-color: #CDDD97;}
+.box5_c5{background-color: #DFD046;}
+
+.box6_c1{background-color: #F5BCCF;}
+.box6_c2{background-color: #E1D953;}
+.box6_c3{background-color: #D09231;}
+.box6_c4{background-color: #563E43;}
+.box6_c5{background-color: #A9C12A;}
